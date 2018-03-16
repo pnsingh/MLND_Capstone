@@ -1,0 +1,18 @@
+This projects tests out various models to classify imdb reviews into positive and negative, based on a dataset curated by Mass et al.
+
+The requirements are:
+python2.7
+numpy (1.12.0)
+keras (v2.0.2)
+matplotlib (v2.0.0)
+
+The dataset can be loaded directly within keras
+The basic data exploration can be found in : Data_Exp.ipynb
+
+The implementation of the tf-idf along with the Multinomial Bayes Classifer can be found in : IMDB_tfidf.pynb
+
+The implementation of a CNN model can be found in : IMDB_CNN.ipynb
+
+The implementation of a Multi-Layer Perceptron model can be found in : IMDB_MLP.ipynb
+
+The implementation of the LSTM model can be found in : IMDB_LSTM.ipynb
